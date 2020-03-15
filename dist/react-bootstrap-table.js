@@ -10281,8 +10281,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	      return this.__displayCommonMessage__REACT_HOT_LOADER__.apply(this, arguments);
 	    }
 	  }, {
-	    key: 'componentWillMount',
-	    value: function componentWillMount() {
+	    key: 'UNSAFE_componentWillMount',
+	    value: function UNSAFE_componentWillMount() {
 	      var _this3 = this;
 
 	      var delay = this.props.searchDelayTime ? this.props.searchDelayTime : 0;
@@ -10291,8 +10291,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	      }, delay);
 	    }
 	  }, {
-	    key: 'componentWillReceiveProps',
-	    value: function componentWillReceiveProps(nextProps) {
+	    key: 'UNSAFE_componentWillReceiveProps',
+	    value: function UNSAFE_componentWillReceiveProps(nextProps) {
 	      if (nextProps.reset) {
 	        this.setSearchInput('');
 	      }
